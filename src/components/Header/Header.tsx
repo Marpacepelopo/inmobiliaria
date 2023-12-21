@@ -15,7 +15,7 @@ export function Header() {
         <div className="container mx-auto my-5 ">
             <div className="flex items-center justify-between px-5 md:px-0">
                 <Link href='/'>
-                  <h1 className="font-medium">Demo RealState</h1>
+                  <h1 className="font-medium"> Demo - Inmobiliaria</h1>
                 </Link>
 
                 <CiMenuFries className= "block text-2x1 md:hidden "  onClick={()=> setOpenMobileMenu(!openMobileMenu)}/>
